@@ -1,0 +1,8 @@
+development:
+  password: password
+  theme_id: 'themeid'
+  store: domain.myshopify.com
+  ignore_files:
+    - /settings_data.json/
+    - /jpeg|jpg|png|svg|ttf|woff|woff2|eot/
+    - /bc-sf/
