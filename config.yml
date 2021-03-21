@@ -1,0 +1,8 @@
+development:
+  password: b59e740ad51c4bd6d58653930a607b4e
+  theme_id: '120912609440'
+  store: dev-challenge-sandbox.myshopify.com
+  ignore_files:
+    - /settings_data.json/
+    - /jpeg|jpg|png|svg|ttf|woff|woff2|eot/
+    - /bc-sf/
