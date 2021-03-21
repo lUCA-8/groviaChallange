@@ -2,12 +2,12 @@
 {% assign companyName = "Company name" %}
 {% assign mainText = "LorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.em" %}
 {% assign mainImage = "" %}
-{% assign btnUrl = "" %}
+{% assign followBtnUrl = "" %}
 {% assign middleText = "LorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" %}
 {% assign middleImage = "" %}
 {% assign middleText2 = "LorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" %}
 {% assign getStart = "Ready to get started?" %}
-
+{% assign ourProductsBtn = "https://dev-challenge-sandbox.myshopify.com/collections/all" %}
 
 
 
@@ -15,12 +15,12 @@
   <div class="first_container luc-flex">
 
     <div class="first_container_left padding">
-    
+
     <h2>{{companyName}}</h2>
 
     <p>{{mainText}}</p>
 
-    <a href="{{btnUrl}}" class="btn"> Follow us now</a>
+    <a href="{{followBtnUrl}}" class="btn"> Follow us now</a>
 
     </div>
 
@@ -41,9 +41,9 @@
     <div class="last_container_text padding">
     <p>{{getStart}}</p>
     </div>
-    
+
     <div class="last_container_btn">
-      <a href="https://dev-challenge-sandbox.myshopify.com/collections/all" class="btn">Our Products</a>
+      <a href="{{ourProductsBtn}}" class="btn">Our Products</a>
     </div>
   </div>
 
